@@ -1,7 +1,7 @@
 import requests
 import csv
 
-f = open('数据.csv', 'a+', encoding='utf-8', newline='')
+f = open(r'C:\Users\acer\Desktop\数据.csv', 'a+', encoding='utf-8', newline='')
 
 csv_writer = csv.writer(f)
 csv_writer.writerow(
